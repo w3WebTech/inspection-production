@@ -18,7 +18,7 @@ export default {
   },
   mounted() {
     this.startOtpTimer()
-    this.otp6 == '6' ?? this.$router.push('/mainpage')
+    // this.otp6 == '6' ?? this.$router.push('/mainpage')
   },
   methods: {
     validateEmail() {

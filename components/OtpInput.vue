@@ -46,7 +46,7 @@ export default {
 
       if (enteredOTP === correctOTP && enteredOTP.length == 6) {
         // Navigate to the next page
-        this.$router.push('/mainpage') // Adjust the route as per your project
+        // this.$router.push('/mainpage') // Adjust the route as per your project
       } else if (enteredOTP.length == 6 && enteredOTP != correctOTP) {
         alert('incorrect OTP')
       } else {

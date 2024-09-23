@@ -19,7 +19,7 @@ export default {
         this.isError = true
         this.emailErrors.push('Enter Valid Email')
       } else {
-        this.$router.push('/mainpage-2')
+        //   this.$router.push('/mainpage-2')
       }
     },
     validateMobileNumber() {
